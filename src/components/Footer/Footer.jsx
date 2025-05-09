@@ -16,46 +16,12 @@ export const Footer = () => {
             <div className='mb-20 h-full flex justify-center items-center '>
                 <img className='w-64' src={Logo} />
             </div>
-            <div className="flex flex-col gap-16 container-footer">
-          
-                <div className='text-white font-poppins grid grid-auto-rows grid-cols-2 gap-10
-                    md:grid-rows-2 md:grid-cols-3 lg:grid-rows-2 lg: lg:grid-cols-5'>
-                   
-                    <div className="flex flex-col items-start justify-center 
-                        md:order-1 lg:order-2 lg:items-center lg:justify-start">
-                        <div className="flex flex-col gap-5">
-                   
-                            <h1 className="text-lg font-light">Fabia Herrera</h1>
-                        </div>
-                    </div>
-                    <div className="flex flex-col items-start justify-center
-                        md:order-2 lg:order-1 lg:items-center lg:justify-start">
-                        <div className="flex flex-col gap-5">
-                            <h1 className="text-lg font-light">Ian Macavilca</h1>
-                        </div>
-                    </div>
-                    <div className="flex flex-col items-start justify-center
-                        md:order-3 lg:order-3 lg:items-center lg:justify-center">
-                        <div className="flex flex-col gap-5">
-                            <h1 className="text-lg font-light">Anatoly Noriega</h1>
-                        </div>
-                    </div>
-                    <div className="flex flex-col items-start justify-center
-                        md:order-4 lg:order-4 lg:items-center lg:justify-center">
-                        <div className="flex flex-col gap-5">
-                            <h1 className="text-lg font-light">Carlos Ochoa</h1>
-                        </div>
-                    </div>
-                    <div className="flex flex-col items-start justify-center
-                        md:order-5 lg:order-5 lg:items-center lg:justify-end">
-                        <div className="flex flex-col gap-5">
-                            <h1 className="text-lg font-light">Arian Rodriguez</h1>
-                        </div>  
-                    </div>
-            
-                    
-                </div>
+
+            <div className="text-center text-white">
+                <p>©{new Date().getFullYear()} PeaceAPP, All rights reserved.</p>
             </div>
+
+
         </section>
     )
 }
