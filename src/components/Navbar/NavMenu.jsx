@@ -27,9 +27,10 @@ export const NavMenu = ({ header, nav }) => {
                         />
                     )
                 }
-                <a href="#contact">
-                    <Button name="Get Started" />
-                </a>
+                <a href="https://peaceappweb.netlify.app/" target="_blank">
+  <button>Get Started</button>
+</a>
+
             </ul>
         </div>
     )
